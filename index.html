@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+
+        <title>Card Design</title>
+
+        <style>       
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(227, 224, 224);
+            font-family: "Roboto", sans-serif;
+        }
+        .card-box{
+            border-radius: 10px;
+            background-color: white;
+           border: 1px solid black;
+        
+            width: 30vw;
+            height: 90vh;
+            display: flex;
+            margin:20px auto;
+            padding: 6px;
+            flex-direction: column;
+        }
+        img{
+            object-fit: cover;
+            border-radius: 8px;
+            height: 50vh;
+        }
+        .capsules{
+            margin: 15px 20px;
+        }
+        span{
+            opacity: 0.5;
+            border: 1px solid black;
+            padding: 2px;
+            border-radius: 10px;
+            padding: 1px 5px;
+        }
+        h2{
+            font-weight: 500;
+            opacity: 0.8;
+            margin: 5px 8px; 
+        }
+        p{
+            line-height: 1.3;
+            opacity: 0.7;
+        }
+        button{
+            border: none;
+            width: 100px;
+            margin:  10px auto;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: rgba(87, 87, 255, 0.674);
+            color: white;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="card-box">
+
+            <img src="img.jpg" alt="burger img">
+
+            <div class="capsules">
+                <span>Nature</span> <span>Lake</span>
+            </div>
+
+            <h2>Zinger Burgers</h2>
+            <p>Our specialty in burgers are so old. Or if you want to taste then
+                come Khayam Hotel in Lahore. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Delectus, architecto.</p>
+
+            <button>Read More</button>
+        </div>
+    </body>
+</html>
